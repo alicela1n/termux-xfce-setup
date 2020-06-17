@@ -29,7 +29,7 @@ EOF
 # Make things executable
 chmod +x ~/start-vnc.sh
 chmod +x ~/start-vnc-local.sh
-chmod +x ~/.vnc/xserver
+chmod +x ~/.vnc/xstartup
 
 echo "You will be asked to make a password first time starting the VNC server."
 echo "All done, you can start VNC server using the script ./start-vnc-local.sh or ./start-vnc.sh"
