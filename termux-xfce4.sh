@@ -13,6 +13,7 @@ cat > ~/.vnc/xstartup << "EOF"
 xfce4-session &
 EOF
 
+# Create scripts to start VNC server
 cat > ~/start-vnc-local.sh << "EOF"
 #!/data/data/com.termux/files/usr/bin/sh
 echo "Starting VNC server on localhost 127.0.0.1:5901 (you can only connect on device)"
@@ -25,8 +26,10 @@ echo "Starting VNC server 127.0.0.1:5901, or device-ip:5091"
 vncserver
 EOF
 
+# Make things executable
 chmod +x ~/start-vnc.sh
 chmod +x ~/start-vnc-local.sh
+chmod +x ~/.vnc/xserver
 
 echo "You will be asked to make a password first time starting the VNC server."
 echo "All done, you can start VNC server using the script ./start-vnc-local.sh or ./start-vnc.sh"
