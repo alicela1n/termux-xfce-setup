@@ -2,6 +2,7 @@
 # Termux script to setup Xfce desktop with VNC server
 #
 # Updating and installing packages
+pkg install x11-repo -y
 pkg update -y
 pkg install tigervnc xfce4 xfce4-terminal -y
 
