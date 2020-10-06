@@ -4,7 +4,7 @@ Easy script to setup Xfce on Termux so I don't have to keep doing this manually 
 # How to
 Install curl ``pkg install curl``, then run:
 ```
-curl https://raw.githubusercontent.com/0xN0ri/termux-xfce-setup/master/termux-xfce4.sh | sh
+curl https://raw.githubusercontent.com/shana0a1/termux-xfce-setup/master/termux-xfce4.sh | sh
 ```
 
 # How to start a VNC server
